@@ -1,5 +1,5 @@
 {
-  "name": "material-ui-helpr",
+  "name": "@watchmen/material-ui-helpr",
   "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
