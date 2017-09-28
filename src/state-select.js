@@ -18,9 +18,10 @@ for (const code in US_STATES) {
   _states.push(<MenuItem value={code}>{US_STATES[code]}</MenuItem>)
 }
 
-export default function stateSelect() {
+export default function stateSelect(props) {
   return (
-    <FormControl>
+    // eslint-disable-next-line foo
+    <FormControl className={props.className}>
       <InputLabel htmlFor="state">State</InputLabel>
       <Field name="state" component={Select}>
         {_states}
