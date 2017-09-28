@@ -1,7 +1,10 @@
 {
   "name": "@watchmen/material-ui-helpr",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/index.js",
   "scripts": {
     "xo": "xo",
