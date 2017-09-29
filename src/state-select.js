@@ -4,7 +4,7 @@ import {InputLabel} from 'material-ui/Input'
 import {MenuItem} from 'material-ui/Menu'
 import {Select} from '@gfpacheco/redux-form-material-ui'
 import {Field} from 'redux-form'
-import {US_STATES} from 'helpr'
+import {US_STATES} from '@watchmen/helpr'
 
 const _states = []
 
@@ -20,7 +20,6 @@ for (const code in US_STATES) {
 
 export default function stateSelect(props) {
   return (
-    // eslint-disable-next-line foo
     <FormControl className={props.className}>
       <InputLabel htmlFor="state">State</InputLabel>
       <Field name="state" component={Select}>

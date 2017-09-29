@@ -13,6 +13,7 @@ module.exports = {
     __DEV__: true
   },
   rules: {
-    'import/prefer-default-export': 'off'
+    'import/prefer-default-export': 'off',
+    'react/forbid-component-props': 'off'
   }
 }
