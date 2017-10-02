@@ -14,6 +14,8 @@ module.exports = {
   },
   rules: {
     'import/prefer-default-export': 'off',
-    'react/forbid-component-props': 'off'
+    'react/forbid-component-props': 'off',
+    'react/prop-types': 'off',
+    'react/require-default-props': 'off'
   }
 }

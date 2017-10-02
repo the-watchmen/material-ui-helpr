@@ -9,7 +9,8 @@
   "scripts": {
     "xo": "xo",
     "build": "babel ./src -d ./dist",
-    "ava": "cross-env DEBUG=app:*,test:* NODE_ENV=auto ava test/ava"
+    "ava": "cross-env DEBUG=app:*,test:* NODE_ENV=auto ava test/ava",
+    "prepare": "install-self-peers -- --ignore-scripts"
   },
   "author": "tony kerz",
   "license": "ISC",
@@ -18,6 +19,8 @@
     "@watchmen/helpr": ">=1",
     "debug": ">=3.0.0",
     "material-ui": ">=1.0.0-0",
+    "prop-types": ">=15",
+    "react": ">=15",
     "redux-form": ">=7.0.0"
   },
   "devDependencies": {
@@ -37,5 +40,10 @@
   "xo": {
     "extends": "xo-react",
     "useEslintrc": true
+  },
+  "dependencies": {
+    "@team-griffin/install-self-peers": "^1.1.1",
+    "classnames": "^2.2.5",
+    "lodash": "^4.17.4"
   }
 }
