@@ -24,6 +24,7 @@
     "redux-form": ">=7.0.0"
   },
   "devDependencies": {
+    "@team-griffin/install-self-peers": "^1.1.1",
     "ava": "^0.22.0",
     "babel-cli": "^6.24.1",
     "babel-eslint": "^7.2.3",
@@ -42,7 +43,6 @@
     "useEslintrc": true
   },
   "dependencies": {
-    "@team-griffin/install-self-peers": "^1.1.1",
     "classnames": "^2.2.5",
     "lodash": "^4.17.4"
   }
