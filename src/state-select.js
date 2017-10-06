@@ -9,7 +9,7 @@ import {US_STATES} from '@watchmen/helpr'
 const _states = []
 
 _states.push(
-  <MenuItem value="">
+  <MenuItem value="?">
     <em>None</em>
   </MenuItem>
 )
