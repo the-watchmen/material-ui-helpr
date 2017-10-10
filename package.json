@@ -1,6 +1,6 @@
 {
   "name": "@watchmen/material-ui-helpr",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "",
   "publishConfig": {
     "access": "public"
@@ -14,15 +14,6 @@
   },
   "author": "tony kerz",
   "license": "ISC",
-  "peerDependencies": {
-    "@gfpacheco/redux-form-material-ui": ">=1.0.0-0",
-    "@watchmen/helpr": ">=1",
-    "debug": ">=3.0.0",
-    "material-ui": ">=1.0.0-0",
-    "prop-types": ">=15",
-    "react": ">=15",
-    "redux-form": ">=7.0.0"
-  },
   "devDependencies": {
     "@team-griffin/install-self-peers": "^1.1.1",
     "ava": "^0.22.0",
@@ -43,7 +34,14 @@
     "useEslintrc": true
   },
   "dependencies": {
+    "@gfpacheco/redux-form-material-ui": ">=1.0.0-0",
+    "@watchmen/helpr": ">=1",
     "classnames": "^2.2.5",
-    "lodash": "^4.17.4"
+    "debug": ">=3.0.0",
+    "lodash": "^4.17.4",
+    "material-ui": ">=1.0.0-0",
+    "prop-types": ">=15",
+    "react": ">=15",
+    "redux-form": ">=7.0.0"
   }
 }
