@@ -18,7 +18,11 @@ export default function({
   const _error = touched && (error || warning)
   const items = []
   for (const key in options) {
-    items.push(<MenuItem value={key}>{options[key]}</MenuItem>)
+    items.push(
+      <MenuItem key={key} value={key}>
+        {options[key]}
+      </MenuItem>
+    )
   }
   return (
     <FormControl className={className} error={_error}>
