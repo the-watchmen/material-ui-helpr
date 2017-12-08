@@ -6,7 +6,7 @@ import IconButton from 'material-ui/IconButton'
 import Tooltip from 'material-ui/Tooltip'
 import debug from 'debug'
 
-const dbg = debug('lib:route-icon')
+const dbg = debug('lib:mui-helpr:route-icon')
 
 const styles = {}
 

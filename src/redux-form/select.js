@@ -5,7 +5,7 @@ import {MenuItem} from 'material-ui/Menu'
 import Select from 'material-ui/Select'
 import debug from 'debug'
 
-const dbg = debug('lib:mui-redux-form:select')
+const dbg = debug('lib:mui-helpr:redux-form:select')
 
 export default function({
   label,

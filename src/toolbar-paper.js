@@ -6,7 +6,7 @@ import Toolbar from 'material-ui/Toolbar'
 import Typography from 'material-ui/Typography'
 import debug from 'debug'
 
-const dbg = debug('lib:toolbar-paper')
+const dbg = debug('lib:mui-helpr:toolbar-paper')
 
 const styles = theme => ({
   controls: {
