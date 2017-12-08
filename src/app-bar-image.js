@@ -4,7 +4,7 @@ import {withStyles} from 'material-ui/styles'
 import classNames from 'classnames'
 import debug from 'debug'
 
-const dbg = debug('lib:app-bar-image')
+const dbg = debug('lib:mui-helpr:app-bar-image')
 
 const styles = theme => {
   dbg('theme=%o', theme)
