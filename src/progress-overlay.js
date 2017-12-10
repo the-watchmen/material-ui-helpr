@@ -61,11 +61,6 @@ class progressOverlay extends Component {
     )
   }
 
-  componentDidMount() {
-    dbg('cdm: this.elt=%o', this.elt)
-    this.setState({elt: this.elt})
-  }
-
   static propTypes = {
     // custom validate child type is Paper ?
     children: PropTypes.element.isRequired,
