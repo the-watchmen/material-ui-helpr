@@ -8,6 +8,9 @@
   "main": "dist/index.js",
   "scripts": {
     "xo": "xo",
+    "prebuild": "yarn test",
+    "test": "yarn ava",
+    "pretest": "yarn xo",
     "build": "babel ./src -d ./dist",
     "ava": "cross-env DEBUG=app:*,test:* NODE_ENV=auto ava test/ava",
     "prepare": "install-self-peers -- --ignore-scripts"
