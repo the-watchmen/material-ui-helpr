@@ -30,7 +30,7 @@
     "redux-form-material-ui": "^5.0.0-beta.2"
   },
   "dependencies": {
-    "@watchmen/helpr": "^1.0.6",
+    "@watchmen/helpr": "^1.0.8",
     "classnames": "^2.2.5",
     "debug": "^3.1.0",
     "lodash": "^4.17.4"
