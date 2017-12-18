@@ -13,6 +13,7 @@ const styles = {}
 const routeIcon = props => {
   dbg('props=%o', props)
   const {route, tooltip, icon} = props
+  // eslint-disable-next-line react/destructuring-assignment
   const size = props.size || 35
 
   return (
