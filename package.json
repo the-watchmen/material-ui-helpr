@@ -1,6 +1,6 @@
 {
   "name": "@watchmen/material-ui-helpr",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "",
   "publishConfig": {
     "access": "public"
