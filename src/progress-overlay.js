@@ -36,6 +36,7 @@ const styles = {
 }
 
 class progressOverlay extends Component {
+  // eslint-disable-next-line no-undef
   grabRef = elt => {
     dbg('grab-ref: elt=%o', elt)
     this.elt = elt
@@ -61,6 +62,7 @@ class progressOverlay extends Component {
     )
   }
 
+  // eslint-disable-next-line no-undef
   static propTypes = {
     // custom validate child type is Paper ?
     children: PropTypes.element.isRequired,
@@ -69,6 +71,7 @@ class progressOverlay extends Component {
     active: PropTypes.bool
   }
 
+  // eslint-disable-next-line no-undef
   static defaultProps = {
     relativeSize: 0.5
   }
