@@ -1,6 +1,7 @@
 export {default as Select} from './redux-form/select'
 export {default as StateSelect} from './redux-form/state-select'
 export {default as TextField} from './redux-form/text'
+export {default as MaskedTextField} from './redux-form/masked-text'
 export {default as ProgressOverlay} from './progress-overlay'
 export {default as AppBarImage} from './app-bar-image'
 export {default as RouteIcon} from './route-icon'
